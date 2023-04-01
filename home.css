@@ -1,0 +1,40 @@
+body{
+    background-color: wheat;
+}
+.feel figcaption:hover{
+    background: whitesmoke;
+    color: #911ae2;
+    border-color: #911ae2;
+}
+.tw{
+    color: purple;
+}
+.feel,.kill{
+    cursor: pointer;
+    position: relative;
+    max-width: 300px;
+
+}
+.feel figcaption{
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 133%;
+    padding: 10px;
+    text-align: center;
+    background-color: #911ae2;
+    color: white;
+    font-weight: bolder;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.start_quiz, .start_quiz2, .start_quiz3, .start_quiz4, .start_quiz5, .start_quiz6{
+    float: left;
+    width: 27%;
+    padding: 28px;
+    padding-left: 140px;
+}   
